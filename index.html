@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+h1 {
+  color: rgb(44, 23, 235);
+  text-align: center;
+}
+
+p {
+  font-size: 14px;
+}
+
+input[type=text], input[type=email], input[type=tel],select{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.content {
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+.card {
+    background-color: white;
+    padding: 10px;
+    margin: 20px;
+}
+</style>
+</head>
+<body>
+
+    <h1>Nathan Nunez</h1>
+    <ul>
+        <li><a class="active" href="https://codingtemple.com/">Coding Temple</a></li>
+        <li><a href="https://www.w3schools.com/css/default.asp">Learn HTML</a></li>
+    </ul>
+    <div class="content">
+        <div class="card">
+            <h4>DODGER'S STADIUM</h4>
+
+            <img src="dodger-stadium-sunset.jpeg">
+
+            <p>At a young age, my father introduced me to the game of baseball and I immediately fell in love with it. 
+            As you can see, I am a big Dodgers fan. I actually had the opportunity to take part in a live broadcast in 2018 from their radio booth.</p>   
+            </p>
+        </div>
+        <div class="card">
+            <h4>FROM DESERT TO FOREST</h4>
+
+            <img src="Texas to oregon.png">
+
+            <p>I grew up in El Paso, Texas, and have gone on to live in five different cities since I graduated high school. 
+            I am now in Hillsboro, Oregon, which is right outside Portland. </p>   
+            </p>
+        </div>
+        <div class="card">
+            <h4>Contact Me</h4>
+                <form>
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="fname">
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lname">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" name="phone">
+                    <input type="submit" value="Submit">
+                
+                </form>
+            </div>
+    </div>
+</body>
+</html>
